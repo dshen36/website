@@ -45,14 +45,24 @@
     padding:10px;
     text-decoration:none;
 }
-a:link {
+.links>a:link {
     text-decoration:none;
     color:#b2beb5;
 }
-a:hover {
+.links>a:hover {
     color:white;
 }
-a:visited {
+.links>a:visited {
     color:#b2beb5;
+}
+#block {
+	color:white;
+	text-align: center;
+	background-color: blue;
+	height:100px;
+	width:100px;
+	/*margin: auto;*/
+	
+
 }
 /*fontawesome,scrollspy(bootstrap)*/
