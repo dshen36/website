@@ -28,18 +28,31 @@
     padding:0;
     text-align:center;
     top:0%;
+
 }
 .links{
     margin:0px auto;
 	display:inline;
-	border: 2px solid #000000;
+	/*border: 2px solid #000000;*/
 	font-family: Futura, serif;
 	color: #b2beb5;
-	border-radius: 5px 5px;
+	border-radius: 35%;
 	background-color: #36454f;
+	font-size: 1.25em;
 }
-.nav a{
+.links a{
     display:inline-block;
     padding:10px;
+    text-decoration:none;
+}
+a:link {
+    text-decoration:none;
+    color:#b2beb5;
+}
+a:hover {
+    color:white;
+}
+a:visited {
+    color:#b2beb5;
 }
 /*fontawesome,scrollspy(bootstrap)*/
