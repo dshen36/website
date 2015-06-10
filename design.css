@@ -1,0 +1,39 @@
+#bg_img {
+	z-index: -1;
+	position: fixed;
+	bottom: 0px;
+	right: -9px;
+	/*margin: -7px 0px 0px -20px;*/
+}
+#Greetings {
+	text-align:center;
+	color:blue;
+	padding-top: 15%;
+	font-family: Consolas,serif;
+
+}
+#navbar {
+	z-index:2;
+	position: fixed;
+	top: 10px;
+	margin:0px auto; 
+	
+}
+
+ul{
+	list-style-type: none;
+	position: fixed;
+	margin: -10px;
+}
+
+li {
+	margin:0px auto;
+	display:inline;
+	border: 2px solid #000000;
+	font-family: Futura, serif;
+	color: #ffffff;
+	border-radius: 5px 5px;
+	background-color: #cc0323
+
+}
+/*fontawesome,scrollspy(bootstrap)*/
