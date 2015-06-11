@@ -5,12 +5,27 @@
 	right: -9px;
 	/*margin: -7px 0px 0px -20px;*/
 }
-#Greetings {
+#intro{
+	padding-top: 15%;
+	margin: auto;
+}
+.Greetings {
 	text-align:center;
 	color:blue;
-	padding-top: 15%;
 	font-family: Consolas,serif;
+    width: 100%;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 5s steps(50, end);
+    animation: type 5s steps(50, end);
+}
 
+@keyframes type{
+    from { width: 0; }
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
 }
 #navbar {
 	z-index:2;
@@ -20,8 +35,9 @@
 	width: 100%;
 	margin:0 auto; 	
 }
-.nav{
-    border:1px solid #ccc;
+.nav{/*something wrong with the nav bar when we hover over it. 
+	only supposed to widen, but it shifts vertically as well*/
+    
     border-width:1px 0;
     list-style:none;
     margin:0;
@@ -38,11 +54,10 @@
 	color: #b2beb5;
 	border-radius: 35%;
 	background-color: #36454f;
-	font-size: 1.25em;
+	font-size: 1.15em;
 }
 .links a{
     display:inline-block;
-    padding:10px;
     text-decoration:none;
 }
 .links>a:link {
@@ -55,12 +70,4 @@
 .links>a:visited {
     color:#b2beb5;
 }
-#block {
-	color:white;
-	text-align: center;
-	background-color: blue;
-	height:100px;
-	width:100px;
-	margin: auto;
-}
-/*fontawesome,scrollspy(bootstrap)*/
+/*fontawesome,scrollspy(bootstrap),hashdown*/

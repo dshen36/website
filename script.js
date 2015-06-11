@@ -1,10 +1,10 @@
 $(document).ready(function() {
-    $('#block').mouseenter(function() {
+    $('.links').mouseenter(function() {
 	    $(this).animate({
 		    width: '+=10px'
 	    });
     });
-    $('#block').mouseleave(function() {
+    $('.links').mouseleave(function() {
 	    $(this).animate({
 		    width: '-=10px'
 	    }); 
