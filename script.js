@@ -15,10 +15,28 @@ function caretBlink() {
     $('#caret').animate({opacity: 0}, 'fast', 'swing').animate({opacity: 1}, 'fast', 'swing');
 }
 
-var test = document.getElementById("Greetings");
-test.style.fontSize = fontSize;
-var height = (test.clientHeight + 1) + "px";
-var width = (test.clientWidth + 1) + "px"; 
+var text = document.getElementById("Greetings");
+//text.style.fontSize = fontSize;
+//var height = (text.clientHeight + 1) + "px";
+//var width = (text.clientWidth + 1) + "px"; 
+var charWidth;
+var typing,pauseToggle; 
+function typingEffect() {
+	typing=text.slice(0,++i);
+	if (text === typing) {
+		return;
+	}
+	var curChar = typing.slice(-1);
+	charWidth = (curChar.clientWidth+1)+px;
+	$('#caret').css("padding-left","+=10");//is ths right?
+	
+	//#caret.padding-left += charWidth
+	if (curChar === '<') pauseToggle = true;
+	if (curChar === '>') pauseToggle = false;
+	if (pauseToggle) {
+		//caret begins on nextline
+	}
+}
 
 //--------------------------------------------------------- need to fix
 
