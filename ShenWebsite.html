@@ -6,13 +6,51 @@
 		<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
 		<title>Dan Shen's Website</title>
 		<link type="text/css" rel="stylesheet" href="design.css" media="screen">
-
+		<script src="fiberopticsBackground.js"></script>
+		<script>
+			$(function(){
+				$("#rightRays img").MyLiveWallpaper({direction:1});
+				$("#leftRays img").MyLiveWallpaper({direction:2});
+				$("#upRays img").MyLiveWallpaper({direction:3});
+				$("#downRays img").MyLiveWallpaper({direction:4});
+			});
+		</script>
 	</head>
 	<body>
 		<div id="background"> </div>
-		<div id="intro">
+		<div id="leftRays">
+			<img id="ray1Img" src="ray_a1.png">
+			<img id="ray2Img" src="ray_a2.png">
+			<img id="ray3Img" src="ray_a3.png">
+			<img id="ray4Img" src="ray_a4.png">
+		</div>
+
+		<div id="rightRays">
+			<img id="ray5Img" src="ray_b4.png">
+			<img id="ray6Img" src="ray_b3.png">
+			<img id="ray7Img" src="ray_b2.png">
+			<img id="ray8Img" src="ray_b1.png">
+		</div>
+
+		<div id="upRays">
+			<img id="ray9Img" src="ray_c1.png">
+			<img id="ray10Img" src="ray_c2.png">
+			<img id="ray11Img" src="ray_c3.png">
+			<img id="ray12Img" src="ray_c4.png">
+		</div>
+
+		<div id="downRays">
+			<img id="ray9Img" src="ray_d1.png">
+			<img id="ray10Img" src="ray_d2.png">
+			<img id="ray11Img" src="ray_d3.png">
+			<img id="ray12Img" src="ray_d4.png">
+		</div>
+<!-- 		<div id="intro">
 			<h1 id="Greetings"> Hi! <br/> Nice to meet you. <br/> My name is Dan Shen, and welcome to my webpage!</h1>
 			<span id="caret" style="cursor:default">|</span>
+		</div> -->
+		<div id="name">
+			<center> Dan Shen </center>
 		</div>
 		<div id="navbar">
 			<ul class="nav">
