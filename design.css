@@ -1,11 +1,12 @@
 
 #name {
-	padding-top:17.5%;
+	padding-top:25%;
 	font-size: 3em;
 	color:#0963b7;
 	font-family: Elephant;
 	margin-bottom: 10px;
-	
+	height: 100%;
+	max-height: 10em;
 }
 #landing:hover {
     -webkit-animation: fade .8s infinite alternate;
@@ -40,24 +41,23 @@ body {
 	z-index:2;
 	position: fixed;
 	top: 10px;
-	right: 0px;
+	right: 0;
 	width: 100%;
 	margin:0 auto; 	
 }
 .nav{
-    border-width:1px 0;
     list-style:none;
     margin:0;
     padding:0;
     text-align:center;
-    top:0%;
+    top:0;
 }
 .pulsor { 
 	display: inline-block; 
-	line-height: 75px; 
+	line-height: 4em; 
 	margin: 10px;
-	width: 75px; 
-	height: 75px; 
+	width: 4em; 
+	height: 4em; 
 	border-radius: 50%;
 	box-shadow: 0 0 3px #0099CC; 
 	background-color: #121212;
@@ -83,21 +83,24 @@ body {
 }
 @-webkit-keyframes pulsate {
     from { box-shadow: 0 0 10px #0099CC; }
-    to { box-shadow: 0 0 25px #0099CC; }
+    to { box-shadow: 0 0 30px #0099CC; }
 }
 @-moz-keyframes pulsate {
     from { box-shadow: 0 0 10px #121212; }
-    to { box-shadow: 0 0 25px #0099CC; }
+    to { box-shadow: 0 0 30px #0099CC; }
 }
 @keyframes pulsate {
     from { box-shadow: 0 0 10px #121212; }
-    to { box-shadow: 0 0 25px #0099CC; }
+    to { box-shadow: 0 0 30px #0099CC; }
 }
 /*landing page*/
 #landing {
 	text-shadow:0 0 0.4em #0963b7;
 	height: 100%;
-	border: 2px solid white;
+	max-height: 1em;
+	width: 100%;
+	max-width:6em;
+	margin: auto;
 }
 /*about me page*/
 .circular_frame {
@@ -112,23 +115,44 @@ body {
     -o-border-radius: 50%;
     border-radius: 50%;
 }
-.title{
-	padding-top:7%;
+.about{
+	padding-top:7.5%;
 	font-size: 3em;
 	color:#0963b7;
 	font-family: Elephant;
 	margin-bottom: 15px;
 }
-/*.promote {
+.promote { 
 	cursor: pointer; 
 	box-shadow: 0 0 10px #0099CC;
+	border-radius: 100%;
+	width:275px;
+	margin: auto;
+	-webkit-transition: all 2s ease;
+  	-moz-transition: all 2s ease;
+  	-o-transition: all 2s ease;
+  	transition: all 2s ease;
 }
-
+html {
+	overflow: hidden;
+}
 .promote:hover {
     -webkit-animation: pulsate .8s infinite alternate;
     -moz-animation: pulsate .8s infinite alternate;
     -animation: pulsate .8s infinite alternate;
-}*/
+}
+.slidePic  {
+    -webkit-transform: translate(-425px,0px);
+    -ms-transform: translate(-425px,0px);
+    -o-transform: translate(-425px,0px);
+    -moz-transform: translate(-425px,0px);
+    transform: translate(-425px,0px);
+}
+.who {
+	width:100%;
+	margin:auto;
+	position:absolute
+}
 
-
-/*fontawesome,scrollspy(bootstrap),hashdown,parallax scrolling*/
+/*fontawesome (http://fortawesome.github.io/Font-Awesome/examples/)
+,scrollspy(bootstrap),scrollpath,hashdown,parallax scrolling*/

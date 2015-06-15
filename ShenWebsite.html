@@ -2,10 +2,12 @@
 	<head>
 		<script type="text/javascript" src="jQuery.js"></script>
 		<script src="script.js"></script>
-		<!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>--> <!--THIS SLOWS IT DOWN TREMENDOUSLY-->
 		<title>Dan Shen's Website</title>
 		<link type="text/css" rel="stylesheet" href="design.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
 		<script src="fiberopticsBackground.js"></script>
+		<link rel="stylesheet" type="text/css" href="jquery-ui.css">
+		<script src="jquery-ui.js"></script>
 		<script>
 			$(function(){
 				$("#rightRays img").MyLiveWallpaper({direction:1});
@@ -62,13 +64,22 @@
 				Dan Shen
 			</center>
 		</div>
-		<div>
+		<div >
 			<a NAME="About"></a>
-			<center class="title">
+			<center class="about">
 				Who am I?
-			</center>
-			<center class="circular_frame">
-				<img class="promote" src="me.jpg"/>
+			</center> 
+			<center style="position:relative;" >
+				<div class= "promote">
+					<center class="circular_frame" >
+						<img src="me.jpg"/>
+					</center>
+				</div>
+<!-- 				<div style="position:absolute" class="who">
+					<center class="circular_frame" id="vanish" > 
+						<img src="question_mark.png">
+					</center>
+				</div> -->
 			</center>
 		</div>
 	</body>
