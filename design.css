@@ -8,6 +8,15 @@
 	height: 100%;
 	max-height: 10em;
 }
+/*landing page*/
+#landing {
+	text-shadow:0 0 0.4em #0963b7;
+	height: 100%;
+	max-height: 1em;
+	width: 100%;
+	max-width:6em;
+	margin: auto;
+}
 #landing:hover {
     -webkit-animation: fade .8s infinite alternate;
     -moz-animation: fade .8s infinite alternate;
@@ -93,15 +102,7 @@ body {
     from { box-shadow: 0 0 10px #121212; }
     to { box-shadow: 0 0 30px #0099CC; }
 }
-/*landing page*/
-#landing {
-	text-shadow:0 0 0.4em #0963b7;
-	height: 100%;
-	max-height: 1em;
-	width: 100%;
-	max-width:6em;
-	margin: auto;
-}
+
 /*about me page*/
 .circular_frame {
 	margin: auto;
@@ -132,6 +133,7 @@ body {
   	-moz-transition: all 2s ease;
   	-o-transition: all 2s ease;
   	transition: all 2s ease;
+
 }
 html {
 	overflow: hidden;
@@ -142,30 +144,46 @@ html {
     -animation: pulsate .8s infinite alternate;
 }
 .slidePic  {
-    -webkit-transform: translate(-140%,0px);
-    -ms-transform: translate(-140%,0px);
-    -o-transform: translate(-140%,0px);
-    -moz-transform: translate(-140%,0px);
-    transform: translate(-140%,0px);
+    -webkit-transform: translate(-167%,0px);
+    -ms-transform: translate(-167%,0px);
+    -o-transform: translate(-167%,0px);
+    -moz-transform: translate(-167%,0px);
+    transform: translate(-167%,0px);
+    margin: 0;
     /*position:absolute;*/
 }
+#info {
+	margin: -400px;
+	width: 65%;
+	margin: auto;
+	float: right;
+	border: 1px solid white;
+	-webkit-transition: all 2s ease;
+  	-moz-transition: all 2s ease;
+  	-o-transition: all 2s ease;
+  	transition: all 2s ease;
+
+	/*display: none;*/
+}
+.slideInfo  {
+    -webkit-transform: translate(0px,-100px);
+    -ms-transform: translate(0px,-100px);
+    -o-transform: translate(0px,-100px);
+    -moz-transform: translate(0px,-100px);
+    transform: translate(0px,-100px);
+    /*position:absolute;*/
+}
+.bio {
+	color:white;
+	list-style: none;
+	display: inline;
+}
+
 /*.who {
 	width:100%;
 	margin:auto;
 	position:absolute
 }*/
 
-.bio {
-	color:white;
-	list-style: none;
-	display: inline;
-}
-#info {
-	width: 70%;
-	margin: auto;
-	float: right;
-	border: 1px solid white;
-	position: relative;
-}
 /*fontawesome (http://fortawesome.github.io/Font-Awesome/examples/)
 ,scrollspy(bootstrap),scrollpath,hashdown,parallax scrolling*/

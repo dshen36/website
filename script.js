@@ -24,7 +24,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.promote').on('click', function() {
 		$(this).addClass("slidePic");
-      	$("#info").show("slide", { direction: "up" }, 1000);
+		$('#info').addClass("slidePic");
 	});
 });
 //http://papermashup.com/simple-jquery-showhide-div/
