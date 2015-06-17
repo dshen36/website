@@ -142,17 +142,22 @@ html {
     -animation: pulsate .8s infinite alternate;
 }
 .slidePic  {
-    -webkit-transform: translate(-425px,0px);
-    -ms-transform: translate(-425px,0px);
-    -o-transform: translate(-425px,0px);
-    -moz-transform: translate(-425px,0px);
-    transform: translate(-425px,0px);
+    -webkit-transform: translate(-140%,0px);
+    -ms-transform: translate(-140%,0px);
+    -o-transform: translate(-140%,0px);
+    -moz-transform: translate(-140%,0px);
+    transform: translate(-140%,0px);
 }
 .who {
 	width:100%;
 	margin:auto;
 	position:absolute
 }
-
+.bio {
+	color:white;
+	margin:auto;
+	list-style: none;
+	display: inline;
+}
 /*fontawesome (http://fortawesome.github.io/Font-Awesome/examples/)
 ,scrollspy(bootstrap),scrollpath,hashdown,parallax scrolling*/
