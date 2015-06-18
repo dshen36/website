@@ -24,6 +24,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$('.promote').on('click', function() {
 		$(this).addClass("slidePic");
+		$('.who').fadeOut(2000);
 		$('#info').addClass("fadeInfo");
 		$('#info').addClass("permFadeIn");
 	});

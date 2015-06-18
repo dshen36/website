@@ -1,7 +1,8 @@
 #name {
 	padding-top:22%;
 	font-size: 3em;
-	color:#0963b7;
+	/*color: #0963b7;*/
+	color: #0099CC;
 	font-family: Elephant;
 	margin-bottom: 10px;
 	height: 100%;
@@ -119,7 +120,8 @@ body {
 .about{
 	padding-top:10%;
 	font-size: 3em;
-	color:#0963b7;
+	/*color:#0963b7;*/
+	color: #0099CC;
 	font-family: Elephant;
 	margin-bottom: 15px;
 }
@@ -154,7 +156,7 @@ html {
 }
 #info {
 	padding-top: 20px 20px 0px 0px;
-	width: 60%;
+	width: 65%;
 	margin-right: 3em;
 	float: right;
 	opacity: 0;
@@ -182,6 +184,12 @@ html {
 	padding: 2em;
 	display: inline-block;
 	vertical-align: text-top;
+}
+.bio>:first-child { 
+    color: #0099CC;
+}
+.bio>li {
+	padding: 0.75px;
 }
 
 /*.who {
