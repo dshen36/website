@@ -1,6 +1,5 @@
-
 #name {
-	padding-top:25%;
+	padding-top:22%;
 	font-size: 3em;
 	color:#0963b7;
 	font-family: Elephant;
@@ -43,6 +42,7 @@ body {
 	/*overflow: hidden;*/
 	background-color: black;
 	text-align: center;
+	max-height: 500%;
 }
 
 /*navigation bar------------------------------------------------------------- */
@@ -117,7 +117,7 @@ body {
     border-radius: 50%;
 }
 .about{
-	padding-top:7.5%;
+	padding-top:10%;
 	font-size: 3em;
 	color:#0963b7;
 	font-family: Elephant;
@@ -144,39 +144,41 @@ html {
     -animation: pulsate .8s infinite alternate;
 }
 .slidePic  {
-    -webkit-transform: translate(-167%,0px);
-    -ms-transform: translate(-167%,0px);
-    -o-transform: translate(-167%,0px);
-    -moz-transform: translate(-167%,0px);
-    transform: translate(-167%,0px);
+    -webkit-transform: translate(-155%,0px);
+    -ms-transform: translate(-155%,0px);
+    -o-transform: translate(-155%,0px);
+    -moz-transform: translate(-155%,0px);
+    transform: translate(-155%,0px);
     margin: 0;
     /*position:absolute;*/
 }
 #info {
-	margin: -400px;
-	width: 65%;
-	margin: auto;
+	padding-top: 20px 20px 0px 0px;
+	width: 60%;
+	margin-right: 3em;
 	float: right;
-	border: 1px solid white;
-	-webkit-transition: all 2s ease;
+	opacity: 0;
+/*	-webkit-transition: all 2s ease;
   	-moz-transition: all 2s ease;
   	-o-transition: all 2s ease;
-  	transition: all 2s ease;
+  	transition: all 2s ease;*/
 
 	/*display: none;*/
 }
-.slideInfo  {
-    -webkit-transform: translate(0px,-100px);
-    -ms-transform: translate(0px,-100px);
-    -o-transform: translate(0px,-100px);
-    -moz-transform: translate(0px,-100px);
-    transform: translate(0px,-100px);
-    /*position:absolute;*/
+.fadeInfo  {
+	animation-name: fadeBio;
+	animation-duration: 2s;
+}
+.permFadeIn {
+	opacity: 1 !important;
+}
+@keyframes fadeBio {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 .bio {
 	color:white;
 	list-style: none;
-	display: inline;
 }
 
 /*.who {
