@@ -144,11 +144,11 @@ html {
     -animation: pulsate .8s infinite alternate;
 }
 .slidePic  {
-    -webkit-transform: translate(-155%,0px);
-    -ms-transform: translate(-155%,0px);
-    -o-transform: translate(-155%,0px);
-    -moz-transform: translate(-155%,0px);
-    transform: translate(-155%,0px);
+    -webkit-transform: translate(-145%,0px);
+    -ms-transform: translate(-145%,0px);
+    -o-transform: translate(-145%,0px);
+    -moz-transform: translate(-145%,0px);
+    transform: translate(-145%,0px);
     margin: 0;
     /*position:absolute;*/
 }
@@ -179,6 +179,9 @@ html {
 .bio {
 	color:white;
 	list-style: none;
+	padding: 2em;
+	display: inline-block;
+	vertical-align: text-top;
 }
 
 /*.who {
