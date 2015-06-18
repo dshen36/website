@@ -10,20 +10,13 @@
 	    }); 
     });
 });*/
-/*
-$(document).ready(function(){
-    $('#landing').bind('mouseenter', function() {
-   		this.iid = setInterval(function() {
-       		$("#landing").animate({opacity: 0.2}, 1000, 'linear').animate({opacity: 1}, 1000, 'linear');
- 		}, 25);
-	}).bind('mouseleave', function(){
-    	this.iid && clearInterval(this.iid);
-	});
-});*/
 
 $(document).ready(function(){
 	$('.promote').on('click', function() {
 		$(this).addClass("slidePic");
+		$(".quote").addClass('slideQuote');
+		$('.quote').addClass("fadeInfo");
+		$('.quote').addClass("permFadeIn");
 		$('.who').fadeOut(2000);
 		$('#info').addClass("fadeInfo");
 		$('#info').addClass("permFadeIn");

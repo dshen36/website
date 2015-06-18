@@ -34,11 +34,6 @@
     from { opacity: 1; }
     to { opacity: 0.2; }
 }
-#intro{
-	padding-top: 15%;
-	margin: auto;
-	width: 75%;
-}
 body {
 	/*overflow: hidden;*/
 	background-color: black;
@@ -135,7 +130,6 @@ body {
   	-moz-transition: all 2s ease;
   	-o-transition: all 2s ease;
   	transition: all 2s ease;
-
 }
 html {
 	overflow: hidden;
@@ -153,6 +147,24 @@ html {
     transform: translate(-145%,0px);
     margin: 0;
     /*position:absolute;*/
+}
+.slideQuote  {
+    -webkit-transform: translate(-130%,0px);
+    -ms-transform: translate(-130%,0px);
+    -o-transform: translate(-130%,0px);
+    -moz-transform: translate(-130%,0px);
+    transform: translate(-130%,0px);
+    margin:0;
+    /*position:absolute;*/
+}
+.quote{
+	color:white;
+	width:350px;
+	opacity: 0;
+	-webkit-transition: all 2s ease;
+  	-moz-transition: all 2s ease;
+  	-o-transition: all 2s ease;
+  	transition: all 2s ease;
 }
 #info {
 	padding-top: 20px 20px 0px 0px;
