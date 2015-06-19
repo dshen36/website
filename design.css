@@ -57,6 +57,7 @@ body {
     text-align:center;
     top:0;
 }
+.fa-home { line-height: inherit;}
 .pulsor { 
 	display: inline-block; 
 	line-height: 4em; 
