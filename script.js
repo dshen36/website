@@ -22,4 +22,9 @@ $(document).ready(function(){
 		$('#info').addClass("permFadeIn");
 	});
 });
+$(document).ready(function(){
+	$("contact").on('click',function(){
+		
+	});
+});
 //http://papermashup.com/simple-jquery-showhide-div/

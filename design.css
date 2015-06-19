@@ -43,7 +43,7 @@ body {
 
 /*navigation bar------------------------------------------------------------- */
 #navbar {
-	z-index:2;
+	z-index:3;
 	position: fixed;
 	top: 10px;
 	right: 0;
@@ -57,7 +57,6 @@ body {
     text-align:center;
     top:0;
 }
-.fa-home { line-height: inherit;}
 .pulsor { 
 	display: inline-block; 
 	line-height: 4em; 
@@ -204,12 +203,46 @@ html {
 .bio>li {
 	padding: 0.75px;
 }
-
-/*.who {
-	width:100%;
-	margin:auto;
-	position:absolute
-}*/
-
 /*fontawesome (http://fortawesome.github.io/Font-Awesome/examples/)
 ,scrollspy(bootstrap),scrollpath,hashdown,parallax scrolling*/
+.displayContact {
+	font-size: 0.4em;
+	list-style: none;
+	display: inline-block; 
+	color: #b2beb5;
+	text-shadow: 0 0 0.4em #0099CC; 
+	width: 100%;
+	margin-left: 2%;
+	margin-right: 8%;
+	padding: 0.5em 2em 0em 2em;
+	max-width: 6em;
+}
+.content {
+	list-style: none;
+	display: inline; 
+	color: #b2beb5;
+	font-size: 0.4em;
+	margin-right: 8%;
+	/*opacity: 0;*/
+}
+.displayContact:hover{
+	-webkit-animation: glow .8s infinite alternate;
+    -moz-animation: glow .8s infinite alternate;
+    -animation: glow .8s infinite alternate;
+}
+.fa.fa-linkedin-square.fa-2x {
+	opacity: 0;
+}
+.contentDisappear .fa.fa-envelope.fa-2x {
+	opacity: 0;
+}
+/*.contentDisappear{
+	pointer-events:none;
+}*/
+a:-webkit-any-link {
+	color:#b2beb5;
+}
+@keyframes glow {
+    from { text-shadow: 0 0 10px #121212; }
+    to { text-shadow: 0 0 30px #0099CC; }
+}
