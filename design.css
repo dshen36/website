@@ -185,6 +185,7 @@ html {
 }
 .permFadeIn {
 	opacity: 1 !important;
+	visibility: visible !important;
 }
 @keyframes fadeBio {
     from {opacity: 0;}
@@ -224,6 +225,7 @@ html {
 	font-size: 0.4em;
 	margin-right: 8%;
 	opacity: 0;
+	
 }
 .displayContact:hover{
 	-webkit-animation: glow .8s infinite alternate;
@@ -232,13 +234,19 @@ html {
 }
 .fa.fa-linkedin-square.fa-2x {
 	opacity: 0;
+	visibility: hidden;
 }
 .contentDisappear .fa.fa-envelope.fa-2x {
 	opacity: 0; 
+	visibility: hidden;
 }
-.contentDisappear{/*removing this doesn't revive the hyperlink*/
-	pointer-events:none;
+.contentDisappear{
+	pointer-events:visible;
 }
+/*
+.contentShow{
+	pointer-events:all !important;
+}*/
 a:-webkit-any-link {
 	color:#b2beb5;
 }

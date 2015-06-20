@@ -33,7 +33,7 @@ $(document).ready(function(){
 		$(".displayContact .fa.fa-envelope.fa-2x").addClass('permFadeIn');
 		$(".content").addClass('permFadeIn');
 		//gets rid of the lack of hyperlink
-		$(".magic").removeClass('contentDisappear');
+		// $(".magic").addClass('contentShow');
 	});
 });
 //http://papermashup.com/simple-jquery-showhide-div/
