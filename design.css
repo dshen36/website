@@ -223,7 +223,7 @@ html {
 	color: #b2beb5;
 	font-size: 0.4em;
 	margin-right: 8%;
-	/*opacity: 0;*/
+	opacity: 0;
 }
 .displayContact:hover{
 	-webkit-animation: glow .8s infinite alternate;
@@ -234,11 +234,11 @@ html {
 	opacity: 0;
 }
 .contentDisappear .fa.fa-envelope.fa-2x {
-	opacity: 0;
+	opacity: 0; 
 }
-/*.contentDisappear{
+.contentDisappear{/*removing this doesn't revive the hyperlink*/
 	pointer-events:none;
-}*/
+}
 a:-webkit-any-link {
 	color:#b2beb5;
 }

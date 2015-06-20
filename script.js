@@ -23,8 +23,17 @@ $(document).ready(function(){
 	});
 });
 $(document).ready(function(){
-	$("contact").on('click',function(){
-		
+	$("#contact").on('click',function(){
+		//fading in
+		$(".fa.fa-linkedin-square.fa-2x").addClass('fadeInfo');
+		$(".displayContact .fa.fa-envelope.fa-2x").addClass('fadeInfo');
+		$(".content").addClass('fadeInfo');
+		//permanent opacity.
+		$(".fa.fa-linkedin-square.fa-2x").addClass('permFadeIn');
+		$(".displayContact .fa.fa-envelope.fa-2x").addClass('permFadeIn');
+		$(".content").addClass('permFadeIn');
+		//gets rid of the lack of hyperlink
+		$(".magic").removeClass('contentDisappear');
 	});
 });
 //http://papermashup.com/simple-jquery-showhide-div/
