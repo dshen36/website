@@ -206,6 +206,33 @@ html {
 }
 /*fontawesome (http://fortawesome.github.io/Font-Awesome/examples/)
 ,scrollspy(bootstrap),scrollpath,hashdown,parallax scrolling*/
+/*resume*/
+#download {
+	/*border-radius: 15%;*/
+	width: 7em;
+	height:3em;
+	border-bottom: 0.2em solid white;
+	border-left: 0.2em solid white;
+	background-color: #121212;
+	text-decoration: none;
+	color:#0099CC;
+	font-size: 1.2em;
+}
+#github {
+	margin-top: 75%; /*can't do percentages anymore, due to page expansion bug*/
+}
+/*projects*/
+.projName {
+	
+	width: 100%;
+	margin: auto;
+	display: inline-block;
+}
+
+.proj {
+	color:white;
+}
+/* contact info */
 .displayContact {
 	font-size: 0.4em;
 	list-style: none;
