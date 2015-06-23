@@ -207,14 +207,11 @@ html {
 /*fontawesome (http://fortawesome.github.io/Font-Awesome/examples/)
 ,scrollspy(bootstrap),scrollpath,hashdown,parallax scrolling*/
 /*resume*/
-#download {
-	/*border-radius: 15%;*/
-	/*width: 7em;
-	height:4em;*/
-	/*background-color: #121212;*/
-	
-	color:#0099CC;
-	/*font-size: 1.2em;*/
+#img {
+	filter: drop-shadow(3px 3px 5px #0099CC);
+	-webkit-filter: drop-shadow(3px 3px 5px #0099CC);
+	max-width:25%;
+	display: block;
 }
 #dlDesign { 
 	word-spacing:7.5px;
