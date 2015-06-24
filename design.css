@@ -12,6 +12,12 @@
 	position: absolute;
 	width: 100%;
 }
+a {
+	text-decoration: none;
+	color: #0099CC;
+	font-family: Elephant;
+	text-shadow: 0 0 0.4em #0099CC;
+}
 /*landing page*/
 #landing {
 	text-shadow:0 0 0.4em #0963b7;
@@ -215,7 +221,7 @@ html {
 #img {
 	filter: drop-shadow(3px 3px 5px #0099CC);
 	-webkit-filter: drop-shadow(3px 3px 5px #0099CC);
-	max-width:25%;
+	max-width:20%;
 	display: block;
 }
 #dlDesign { 
@@ -248,12 +254,13 @@ html {
     padding:0;
     text-align:center;
 }
-
 .proj {
 	color:white;
 	display: inline-block;
-	/*white-space: 40px;*/
-	padding: 20px
+	padding: 20px;
+	width: 20%;
+	list-style: none;
+	vertical-align: text-top;
 }
 /* contact info */
 .displayContact {
