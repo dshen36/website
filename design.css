@@ -8,6 +8,10 @@
 	height: 100%;
 	max-height: 10em;
 }
+#fixedDown {
+	position: absolute;
+	width: 100%;
+}
 /*landing page*/
 #landing {
 	text-shadow:0 0 0.4em #0963b7;
@@ -38,6 +42,7 @@ body {
 	/*overflow: hidden;*/
 	background-color: black;
 	text-align: center;
+	/*min-height: 200%;*/
 	max-height: 500%;
 }
 
@@ -232,15 +237,13 @@ html {
 	text-align: center;   
 	cursor: pointer; 
 }
-#github {
-	margin-top: 75%; /*can't do percentages anymore, due to page expansion bug*/
-}
+/*#github {
+	margin-top: 75%; can't do percentages anymore, due to page expansion bug
+}*/
 /*projects*/
 .projName {
-	
 	width: 100%;
 	margin: auto;
-	display: inline-block;
 	list-style:none;
     padding:0;
     text-align:center;
@@ -248,6 +251,9 @@ html {
 
 .proj {
 	color:white;
+	display: inline-block;
+	/*white-space: 40px;*/
+	padding: 20px
 }
 /* contact info */
 .displayContact {
