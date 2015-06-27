@@ -215,8 +215,6 @@ html {
 .bio>li {
 	padding: 0.75px;
 }
-/*fontawesome (http://fortawesome.github.io/Font-Awesome/examples/)
-,scrollspy(bootstrap),scrollpath,hashdown,parallax scrolling*/
 /*resume*/
 #img {
 	filter: drop-shadow(3px 3px 5px #0099CC);
@@ -258,7 +256,7 @@ html {
 	color:white;
 	display: inline-block;
 	padding: 10px;
-	width: 20%;
+	width: 23%;
 	list-style: none;
 	vertical-align: text-top;
 }
@@ -311,3 +309,5 @@ a:-webkit-any-link {
     from { text-shadow: 0 0 10px #121212; }
     to { text-shadow: 0 0 30px #0099CC; }
 }
+/*fontawesome (http://fortawesome.github.io/Font-Awesome/examples/)
+,scrollspy(bootstrap),scrollpath,hashdown,parallax scrolling*/
