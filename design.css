@@ -193,7 +193,7 @@ html {
 }
 .fadeInfo  {
 	animation-name: fadeBio;
-	animation-duration: 3s;
+	animation-duration: 5s;
 }
 .permFadeIn {
 	opacity: 1 !important;
