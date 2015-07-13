@@ -19,7 +19,7 @@ a {
 	text-shadow: 0 0 0.4em #0099CC;
 }
 /*landing page*/
-#landing {
+.landing {
 	text-shadow:0 0 0.4em #0963b7;
 	height: 100%;
 	max-height: 1em;
@@ -27,7 +27,7 @@ a {
 	max-width:6em;
 	margin: auto;
 }
-#landing:hover {
+.landing:hover {
     -webkit-animation: fade .8s infinite alternate;
     -moz-animation: fade .8s infinite alternate;
     -animation: fade .8s infinite alternate;
@@ -242,25 +242,39 @@ html {
 	text-align: center;   
 	cursor: pointer; 
 }
-/*#github {
-	margin-top: 75%; can't do percentages anymore, due to page expansion bug
-}*/
 /*projects*/
 .projName {
 	width: 100%;
-	margin: auto;
 	list-style:none;
     padding:0;
     text-align:center;
 }
 .proj {
+	text-shadow:0 0 0.4em #0963b7;
+	display:none;
 	color:white;
-	display: inline-block;
+	display: inline-block !important;
 	padding: 10px;
 	width: 23%;
 	list-style: none;
 	vertical-align: text-top;
+	cursor: pointer;
+	opacity: 0.85;
 }
+.proj:hover {
+    -webkit-animation: fade .8s infinite alternate;
+    -moz-animation: fade .8s infinite alternate;
+    -animation: fade .8s infinite alternate;
+}
+.slidingDiv {
+	height:auto;
+	background-color: #2C2C2C;
+	padding:20px;
+	margin-top:10px;
+	border-bottom:5px solid #3399FF;
+	font-size: 0.85em;
+}
+
 /* contact info */
 .displayContact {
 	font-size: 0.4em;

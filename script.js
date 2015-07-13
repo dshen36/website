@@ -56,6 +56,23 @@ $(document).ready(function() {
 		$('#info').addClass("fadeInfo");
 		$('#info').addClass("permFadeIn");
 	});
+	$(".slidingDiv").hide();
+	$(".show_hide").show();
+	$('.show_hide1').click(function(){
+		$("#slidingDiv1").slideToggle();
+	});
+	$('.show_hide2').click(function(){
+		$("#slidingDiv2").slideToggle();
+	});
+	$('.show_hide3').click(function(){
+		$("#slidingDiv3").slideToggle();
+	});
+	$('.show_hide4').click(function(){
+		$("#slidingDiv4").slideToggle();
+	});
+	$('.show_hide5').click(function(){
+		$("#slidingDiv5").slideToggle();
+	});
 });
 // $(document).ready(function() {
 // 	$("#button").click(function() {
