@@ -29,10 +29,20 @@ a {
 }
 .landing:hover {
     -webkit-animation: fade .8s infinite alternate;
+    -ms-animation: fade .8s infinite alternate;
+    -o-animation: fade .8s infinite alternate;
     -moz-animation: fade .8s infinite alternate;
     -animation: fade .8s infinite alternate;
 }
 @-webkit-keyframes fade {
+    from { opacity: 1; }
+    to { opacity: 0.2; }
+}
+@-ms-keyframes fade {
+    from { opacity: 1; }
+    to { opacity: 0.2; }
+}
+@-o-keyframes fade {
     from { opacity: 1; }
     to { opacity: 0.2; }
 }
@@ -87,6 +97,8 @@ body {
 }
 .pulsor:hover {
     -webkit-animation: pulsate .8s infinite alternate;
+    -ms-animation: pulsate .8s infinite alternate;
+    -o-animation: pulsate .8s infinite alternate;
     -moz-animation: pulsate .8s infinite alternate;
     -animation: pulsate .8s infinite alternate;
 }
@@ -98,6 +110,14 @@ body {
     color:#b2beb5;
 }
 @-webkit-keyframes pulsate {
+    from { box-shadow: 0 0 10px #0099CC; }
+    to { box-shadow: 0 0 30px #0099CC; }
+}
+@-ms-keyframes pulsate {
+    from { box-shadow: 0 0 10px #0099CC; }
+    to { box-shadow: 0 0 30px #0099CC; }
+}
+@-o-keyframes pulsate {
     from { box-shadow: 0 0 10px #0099CC; }
     to { box-shadow: 0 0 30px #0099CC; }
 }
@@ -138,6 +158,7 @@ body {
 	width:275px;
 	margin: auto;
 	-webkit-transition: all 2s ease;
+	-ms-transition: all 2s ease;
   	-moz-transition: all 2s ease;
   	-o-transition: all 2s ease;
   	transition: all 2s ease;
@@ -148,6 +169,8 @@ html {
 }
 .promote:hover {
     -webkit-animation: pulsate .8s infinite alternate;
+    -ms-animation: pulsate .8s infinite alternate;
+    -o-animation: pulsate .8s infinite alternate;
     -moz-animation: pulsate .8s infinite alternate;
     -animation: pulsate .8s infinite alternate;
 }
@@ -174,8 +197,9 @@ html {
 	width:350px;
 	opacity: 0;
 	-webkit-transition: all 2s ease;
+	-ms-transition: all 2s ease;
+	-o-transition: all 2s ease;
   	-moz-transition: all 2s ease;
-  	-o-transition: all 2s ease;
   	transition: all 2s ease;
 }
 #info {
@@ -195,13 +219,29 @@ html {
 	animation-name: fadeBio;
 	animation-duration: 5s;
 }
-.permFadeIn {
-	opacity: 1 !important;
-	visibility: visible !important;
+@-webkit-keyframes fadeBio {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-ms-keyframes fadeBio {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-o-keyframes fadeBio {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@-moz-keyframes fadeBio {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
 @keyframes fadeBio {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+.permFadeIn {
+	opacity: 1 !important;
+	visibility: visible !important;
 }
 .bio {
 	color:white;
@@ -220,6 +260,9 @@ html {
 #img {
 	filter: drop-shadow(3px 3px 5px #0099CC);
 	-webkit-filter: drop-shadow(3px 3px 5px #0099CC);
+	-ms-filter: drop-shadow(3px 3px 5px #0099CC);
+	-o-filter: drop-shadow(3px 3px 5px #0099CC);
+	-moz-filter: drop-shadow(3px 3px 5px #0099CC);
 	max-width:20%;
 	display: block;
 }
@@ -263,6 +306,8 @@ html {
 }
 .proj:hover {
     -webkit-animation: fade .8s infinite alternate;
+    -ms-animation: fade .8s infinite alternate;
+    -o-animation: fade .8s infinite alternate;
     -moz-animation: fade .8s infinite alternate;
     -animation: fade .8s infinite alternate;
 }
@@ -299,6 +344,8 @@ html {
 }
 .displayContact:hover{
 	-webkit-animation: glow .8s infinite alternate;
+	-ms-animation: glow .8s infinite alternate;
+	-o-animation: glow .8s infinite alternate;
     -moz-animation: glow .8s infinite alternate;
     -animation: glow .8s infinite alternate;
 }
@@ -320,9 +367,26 @@ html {
 a:-webkit-any-link {
 	color:#b2beb5;
 }
+@-webkit-keyframes glow {
+    from { text-shadow: 0 0 10px #121212; }
+    to { text-shadow: 0 0 30px #0099CC; }
+}
+@-ms-keyframes glow {
+    from { text-shadow: 0 0 10px #121212; }
+    to { text-shadow: 0 0 30px #0099CC; }
+}
+@-o-keyframes glow {
+    from { text-shadow: 0 0 10px #121212; }
+    to { text-shadow: 0 0 30px #0099CC; }
+}
+@-moz-keyframes glow {
+    from { text-shadow: 0 0 10px #121212; }
+    to { text-shadow: 0 0 30px #0099CC; }
+}
 @keyframes glow {
     from { text-shadow: 0 0 10px #121212; }
     to { text-shadow: 0 0 30px #0099CC; }
 }
+
 /*fontawesome (http://fortawesome.github.io/Font-Awesome/examples/)
 ,scrollspy(bootstrap),scrollpath,hashdown,parallax scrolling*/
