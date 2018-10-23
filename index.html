@@ -1,181 +1,26 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<!-- <a NAME="Home"></a> -->
-		<script type="text/javascript" src="jQuery.js"></script>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">	
-		<script src="script.js"></script>
-		<title>Dan Shen's Website</title>
-		<link type="text/css" rel="stylesheet" href="design.css" media="screen">
-		<link rel="stylesheet" type="text/css" href="fontAwesome/css/font-awesome.min.css">
-		<script src="fiberopticsBackground.js"></script>
-		<link rel="stylesheet" type="text/css" href="jquery-ui.css">
-		<script src="accordian/showHide.js"></script>
-		<!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-        <!-- <style type="text/css">body { background: black; }</style> -->
-		<script>
-			$(function(){
-				$("#rightRays img").MyLiveWallpaper({direction:1});
-				$("#leftRays img").MyLiveWallpaper({direction:2});
-				$("#upRays img").MyLiveWallpaper({direction:3});
-				$("#downRays img").MyLiveWallpaper({direction:4});
-			});
-		</script>
-	</head>
-	<body>
-
-		<script src="jquery-ui.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<div id="background"> </div>
-		<div id="leftRays">
-			<img id="ray1Img" src="ray_a1.png">
-			<img id="ray2Img" src="ray_a2.png">
-			<img id="ray3Img" src="ray_a3.png">
-			<img id="ray4Img" src="ray_a4.png">
-		</div>
-
-		<div id="rightRays">
-			<img id="ray5Img" src="ray_b4.png">
-			<img id="ray6Img" src="ray_b3.png">
-			<img id="ray7Img" src="ray_b2.png">
-			<img id="ray8Img" src="ray_b1.png">
-		</div>
-
-		<div id="upRays">
-			<img id="ray9Img" src="ray_c1.png">
-			<img id="ray10Img" src="ray_c2.png">
-			<img id="ray11Img" src="ray_c3.png">
-			<img id="ray12Img" src="ray_c4.png">
-		</div>
-
-		<div id="downRays">
-			<img id="ray9Img" src="ray_d1.png">
-			<img id="ray10Img" src="ray_d2.png">
-			<img id="ray11Img" src="ray_d3.png">
-			<img id="ray12Img" src="ray_d4.png">
-		</div>
-		<div id="fixedDown">
-			<div id="navbar">
-				<ul class="nav">
-					<li class="pulsor" class="pulsor-text" id="home" title="Home Page"><a href="#"><span class="fa fa-home fa-2x" style=" vertical-align:middle"></span></a></li>
-					<li class="pulsor" class="pulsor-text" id="about" title="About Me"><a href="#About"><span class="fa fa-question fa-3x" style=" vertical-align:middle"></span></a></li>
-					<li class="pulsor" class="pulsor-text" id="projects" title="Coding Projects"><a href="#Projects"><span class="fa fa-file-code-o fa-2x" style=" vertical-align:middle"></span></a></li>
-					<li class="pulsor" class="pulsor-text" id="resume" title="Resume"><a href="#Resume"><span class="fa fa-file-text fa-2x" style=" vertical-align:middle"></span></a></li>
-					<li class="pulsor" class="pulsor-text" id="contact" title="Contact Information"><a href="#"><span class="fa fa-envelope fa-2x" style=" vertical-align:middle"></span></a></li>
-				</ul>
-			</div>
-			<div id="name" class="page">
-				<center class="landing">
-					Dan Shen
-				</center>
-				<ul class="contentDisappear" class="magic">
-					<li class="displayContact"><a href="https://www.linkedin.com/in/danshen"><span class="fa fa-linkedin-square fa-2x" style=" vertical-align:middle"></span></a></li>
-					<li class="displayContact"><a href="mailto:dshen36@gatech.edu"><span class="fa fa-envelope fa-2x" style=" vertical-align:middle"></span></a></li>
-				</ul>
-				<ul class="contentDisappear" class="magic">
-					<li class="content">LinkedIn.com/in/danshen </li>
-					<li class="content">dshen36@gatech.edu</li>
-				</ul>
-			</div>
-	<!-- 		<div >
-				<ul id="displayContact">
-					<li>LinkedIn</li>
-					<li>Email</li>
-				</ul>
-			</div> -->
-			<div style="position:relative; margin-bottom:6em;" class="page">
-				<a NAME="About"></a>
-				<center class="about">
-					Who am I?
-				</center> 
-				<div style="position:relative; max-width:300px; margin:auto;" >
-					<div class= "promote" style="margin:auto">
-						<center class="circular_frame" >
-							<img style="position:absolute; height:361px; width:361px; left:-43px;top:-43px" class="who" src="question_mark.png" />
-							<img src="me.jpg"/>
-						</center>
-					</div>
-					<center >
-						<p class="quote">
-							<i>"Skills win you medals, but attitude wins hearts." <br/> </i>
-						</p>
-						<p class="quote" style="right:0; padding-top:5px">
-							-ESPN Caster towards Lee Chong Wei
-						</p>
-					</center>
-				</div>
-				<div  style="position:absolute; margin-top: -300px; z-index:-1;">
-					<ul id="info">
-						<li class="bio">My name is Daniel Shen. I am a third year computer science major at Georgia Institute of Technology. I specialize in Artificial Intelligence and Information Internetworks. I'm also the president of the badminton team at Georgia Tech.
-						</li>
-						<ul class="bio"><Strong><u>Hobbies and Passions:</u></Strong>
-							<li>Badminton</li>
-							<li>Running</li>
-							<li>Finding New Songs</li>
-							<li>Eating</li>
-						</ul>
-						<ul class="bio"> <Strong><u>Coding Languages:</u></Strong>
-							<li>Java </li>
-							<li>SQL/MySQL</li>
-							<li>HTML/CSS</li>
-							<li>Javascript/JQuery</li>
-							<li>BootStrap</li>
-							<li>AngularJS</li>
-							<li>Python</li>
-							<li>C</li>
-							<li>Android</li>
-							<li>Assembly</li>
-						</ul>
-						<ul class="bio"> <Strong><u>Prior Working Experience:</u></Strong>
-							<li>Private Competition and SAT Math Tutor</li>
-							<li>Big Data Software Developer Intern at Comcast</li>
-						</ul>
-					</ul>
-				</div>
-			</div>
-			<div style="position:relative; margin-bottom:6em;" class="page">
-				<a id="github" NAME="Projects"></a>
-				<center id="github" class="about">
-					Coding Projects 
-				</center>
-				<center>
-					<a href="https://github.com/dshen36"><span class="fa fa-github-square fa-3x" style=" vertical-align:middle"></span> Github.com/dshen36</a>
-				</center>
-				<ul class="projName">
-					<ul class="proj show_hide1"><Strong><a ref="y">Library Database</a></Strong>
-						<li><div id="slidingDiv1" class="slidingDiv toggleDiv"> An Intro to Databases project that was meant to simulate the creation of a database in a team-based environment. This program mimicked the typical functionalities available when checking and returning a book, processing fines and holds, and generating reports.</li>
-					</ul>
-					<ul class="proj show_hide2"><Strong><a ref="o">Space-Invaders</a></Strong>
-						<li><div id="slidingDiv2" class="slidingDiv toggleDiv">A mode 3 Gameboy game coded in C based off of the concept of Space-Invaders. Although it's not an exact replica, it simulates many of the controls that were required when this was an arcade game.</li>
-					</ul>
-					<ul class="proj show_hide3"><Strong><a ref="n">Shopping with Friends</a></Strong>
-						<li><div id="slidingDiv3" class="slidingDiv toggleDiv"> A hybrid andoid app, built in my Objects and Design class, that combines features from social networks, product rating application, and merching websites. It is backed by Parse to create a realistic and animated program. </li>
-					</ul>
-					<ul class="proj show_hide4"><Strong><a ref="e">Ideas Portal App</a></Strong>
-						<li><div id="slidingDiv4" class="slidingDiv toggleDiv"> A team based project where interns are split off into different groups to create an existing website into a functioning and mobile android application. This app specifically targets field workers who do not always have access to a computer to visit Comcast's Ideas Portal, a site to promote, share and discuss projects and issues, and thus need a competent alternate solution.
-						</li>
-					</ul>
-					<ul class="proj show_hide5"><Strong><a ref="x">Comcast Dashboard</a></Strong>
-						<li><div id="slidingDiv5" class="slidingDiv toggleDiv"> A dashboard, utilizing bootstrap and d3, that analyzes the databases, tables, and contents stored via Hadoop and performs a statistical analysis on them. Using a harmonic mean program that determines the significance of similarity of one table versus another, or the reminents of abandoned tables, analysts can manually determine which tables need to be discarded verses updated. </li>
-					</ul>
-				</ul>
-			</div>
-		
-			<div style="position:relative; margin-bottom:6em;" class="page">
-				<a NAME="Resume"></a>
-				<center class="about">
-					Resume
-				</center> 
-				<center><img id="img" src="resume.png"></center>
-				<a id="dlDesign" href="resume.pdf" class="pulsor" download><span class="fa fa-angle-double-down fa-2x" style=" vertical-align:middle"></span> | Download</a>
-				<!-- id="download" -->
-			</div>
-		</div>
-
-<!-- 		<div style="position:relative; margin-bottom:6em;">
-			<a NAME="Contact"></a>
-			<center class="about">
-				Contact Information
-			</center> 
-		</div> -->
-	</body>
+    <head>
+        <title>Dan Shen's website</title>
+        <!--Skills win you medals, but attitude wins hearts <3--> 
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="content-container">
+            <div class="content-disclaimer">
+                Currently my website is under reconstruction. Feel free to reach me via any one of the platforms below!
+            </div>
+            <div class="content-divider">
+            </div>
+            <div class="content-links">
+                <a class="content-link" href="https://github.com/dshen36">
+                    <i class="fab fa-github fa-5x"></i>
+                </a>
+                <a class="content-link" href="https://www.linkedin.com/in/danshen/">
+                    <i class="fab fa-linkedin fa-5x"></i>
+                </a>
+            </div>
+        </div>
+    </body>
 </html>
